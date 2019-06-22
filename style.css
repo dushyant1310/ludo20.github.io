@@ -1,0 +1,140 @@
+.title{
+	text-align: center;
+}
+
+
+body{
+	background-image: url('wp3731782-ludo-wallpapers_psd4.jpg');
+	height: 100vh;
+	opacity: 0.8;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#locker-a{
+	border:solid black 5px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	position: relative;
+	position: fixed;
+	left: 180px;
+	top: 80px;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	padding: ;
+	color:red ;
+	font-family: ;
+}
+
+#locker-b{
+	border:solid black 5px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	position: relative;
+	top: 500px;
+	left: 1150px;
+	background: rgba(255,255,255,0.6);
+	border-radius: 10px;
+	padding: ;
+	color: blue;
+	font-family: ;
+
+}
+
+.mainblock{
+	position: fixed;
+}
+.block{
+	width: 70px;
+	height: 70px;
+	border:solid black 5px;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.5);
+	padding: ;
+	color: ;
+	font-family: ;
+
+}
+
+#x21,#x22,#x23,#x24,#x25,#x26,#x27,#x0{
+	/*display: inline;*/
+	position: relative;
+	left: 450px;
+	bottom: 80px;
+
+}
+
+#x7,#x8,#x9,#x10,#x11,#x12,#x13,#x14{
+	position: relative;
+	left: 1010px;
+	bottom: 720px;
+}
+
+.upperhz{
+	display: inline-flex;
+	position: fixed;
+	left:538px;
+	bottom: 636px;
+}
+
+.lowerhz{
+	display: inline-flex;
+	position: relative;
+	position: fixed;
+	left: 538px;
+	bottom: 76px;
+}
+
+#turn,#winner-a,#winner-b,#roll,#outcome{
+	height: 30px;
+	width: 150px;
+	padding: 7px 2px;
+	text-align: center;
+	border:solid black 2px;
+	position: relative;
+	left: 700px;
+	top: 130px;
+	font-size: 20px;
+	background: rgba(255,255,255,0.5);
+	padding: ;
+	color:rgb(114, 0, 97);
+	font-family: ;
+}
+
+#a1,#a2{
+	display: inline-flex;
+	border:solid red 2px;
+	padding: 5px;
+	border-radius: 50%;
+	background: rgba(255,0,0,0.2);
+	padding: ;
+	color:black ;
+	font-family: ;
+}
+
+#b1,#b2{
+	display: inline-flex;
+	border:solid blue 2px;
+	padding: 5px;
+	border-radius: 50%;
+	background: rgba(0,0,255,0.2);
+	padding:;
+	color:black ;
+	font-family: ;
+}
+
+#x0{
+	background: rgba(255,0,0,1);
+}
+#x27{
+	background: rgba(255,0,0,0.4);
+}
+#x14{
+	background: rgba(0,0,255,1);
+}
+#x13{
+	background: rgba(0,0,255,0.4);
+}
